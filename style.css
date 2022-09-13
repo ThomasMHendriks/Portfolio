@@ -1,0 +1,105 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 10% auto;
+}
+
+body {
+    background-color: #99bee2;
+    color: white;
+    font-size: large;
+}
+
+.main {
+    text-align: center;
+}
+
+.project {
+    display: flex;
+    margin: 1%;
+}
+
+.project:nth-child(even) {
+    flex-direction: row-reverse;
+    border-radius: 15px 0 0 15px;
+}
+
+.project:nth-child(odd) {
+    flex-direction: row;
+    border-radius: 0 15px 15px 0;
+}
+
+.projectImage {
+    width: 70vw;
+    display: block;
+}
+
+#about {
+    background-color: #4294e6;
+    border-radius: 15px;
+    margin: 1%;
+    text-align: left;
+    padding:10px;
+}
+
+.info {
+    background-color: #4294e6;
+    width:auto;
+    padding: 15px;
+    text-align: left;
+    border-radius: inherit;
+}
+
+a {
+    color: white;
+}
+
+a:visited { 
+    text-decoration: none; 
+    color:white; 
+}
+
+.sidebarLink {
+    width: 100%;
+    background-color: #4294e6;
+    margin: 0.2vh;
+    text-align: center;
+    font-size: large;
+    border-radius: 3px;
+}
+
+.sidebarLinks {
+    position: -webkit-sticky;
+    position: sticky;
+    top:5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar a {
+    width:100%;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    color: white;
+}
+
+.small {
+    font-size: smaller;
+}
+
+.icon {
+    height: 15px;
+}
+
+hr {
+    width: 90%;
+    border-top: 3px white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
