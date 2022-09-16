@@ -1,11 +1,23 @@
+/* Color palette
+
+HEX: #fbefcc
+
+HEX: #f9ccac
+
+HEX: #f4a688
+
+HEX: #e0876a
+
+ */
+
 .grid-container {
     display: grid;
     grid-template-columns: 10% auto;
 }
 
 body {
-    background-color: #99bee2;
-    color: white;
+    background-color: white;
+    color: black;
     font-size: large;
 }
 
@@ -18,6 +30,12 @@ body {
     margin: 1%;
 }
 
+.projectTitle {
+    background-color: #fbefcc;
+    border-radius: 15px;
+    margin: 1%;
+}
+ 
 .project:nth-child(even) {
     flex-direction: row-reverse;
     border-radius: 15px 0 0 15px;
@@ -34,15 +52,26 @@ body {
 }
 
 #about {
-    background-color: #4294e6;
+    background-color: #fbefcc;
     border-radius: 15px;
     margin: 1%;
     text-align: left;
     padding:10px;
 }
 
+#flexcontainer {
+    display: flex;
+    flex-direction: row;
+}
+
+#me {
+    height: 350px;
+    display: block;
+    align-items: center;
+}
+
 .info {
-    background-color: #4294e6;
+    background-color: #fbefcc;
     width:auto;
     padding: 15px;
     text-align: left;
@@ -50,17 +79,17 @@ body {
 }
 
 a {
-    color: white;
+    color: black;
 }
 
 a:visited { 
     text-decoration: none; 
-    color:white; 
+    color:black; 
 }
 
 .sidebarLink {
     width: 100%;
-    background-color: #4294e6;
+    background-color: #f4a688;
     margin: 0.2vh;
     text-align: center;
     font-size: large;
@@ -82,7 +111,8 @@ a:visited {
 
 footer {
     text-align: center;
-    color: white;
+    color: black;
+    background-color: #f4a688;
 }
 
 .small {
@@ -90,16 +120,16 @@ footer {
 }
 
 .icon {
-    height: 15px;
-}
-
-hr {
-    width: 90%;
-    border-top: 3px white;
+    height: 30px;
+    vertical-align: middle;
 }
 
 ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+}
+
+.aboutTitle {
+    text-align: center;
 }
