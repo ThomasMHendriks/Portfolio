@@ -25,14 +25,27 @@ body {
     text-align: center;
 }
 
-.project {
-    display: flex;
-    margin: 1%;
+#infoText {
+    width: 50%;
+    padding: 1vw;
 }
 
-.projectTitle {
-    background-color: #fbefcc;
-    border-radius: 15px;
+#infoTable {
+    width: 50%;
+    padding: 1vw;
+}
+
+th {
+    background-color: #e0876a;
+}
+
+tr:nth-child(odd) {
+    background-color: #f4a688;
+}
+
+
+.project {
+    display: flex;
     margin: 1%;
 }
  
@@ -113,6 +126,7 @@ footer {
     text-align: center;
     color: black;
     background-color: #f4a688;
+
 }
 
 .small {
@@ -122,6 +136,10 @@ footer {
 .icon {
     height: 30px;
     vertical-align: middle;
+}
+
+.iconLink {
+    text-decoration:none;
 }
 
 ul {

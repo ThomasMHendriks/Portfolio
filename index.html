@@ -21,55 +21,53 @@
         <div class="main">
             <div id="about">
                 <div class="aboutTitle">
-                    <h1>Who am I</h1>
+                    <h1>Portfolio</h1>
                 </div>
                 <div id="flexcontainer">
-                    <div>
-                        <div>
-                            <div>
-                                <p>
-                                    I am Dutch programmer currently living in Barcelona, Spain. I have always been curious to understand how something works under the hood.
-                                    Once I start wondering about something, I want to figure it out. Programming not only fulfills this curiousity but has the added benefit of being able to create whatever I feel like.
-                                    Looking forward to expanding my knowledge.
-                                </p>
-                            </div>
-                        </div>
-                        <div>
-                            <h4>Programming languages, frameworks and tooling I use:</h4>
-                            <ul>
-                                <li>Python - Django, Flask</li>
-                                <li>Javascript - NodeJs, React, ExpessJs, Webpack, Babel, Jest</li>
-                                <li>PHP</li>
-                                <li>C</li>
-                                <li>C++</li>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>Databases - MySQL, SQlite, MongoDB</li>
-                                <li>Git</li>
-                            </ul>
-                        </div>
+                    <div id="infoText">
+                        <p>
+                            My name is Thomas Hendriks. I am a 30 y/o Dutch programmer, currently living in Barcelona. Below you will find some of the coding projects I made as practice and for fun.
+                        </p>
                     </div>
-                    <div>
-                        <img id="me" src="images/me.jpg">
+                    <div id="infoTable">
+                        <table>
+                            <tr>
+                                <th>Skill</th>
+                                <th>Specifications</th>
+                            </tr>
+                            <tr>
+                                <td>Python</td>
+                                <td>Django, Flask & most common libraries</td>
+                            </tr>
+                            <tr>
+                                <td>Javascript</td>
+                                <td>NodeJs, NPM, React, ExpessJs, Webpack, Babel, Jest</td>
+                            </tr>
+                            <tr>
+                                <td>C & C++</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>PHP</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>HTML & CSS</td>
+                                <td>Sass, Bootstrap</td>
+                            </tr>
+                            <tr>
+                                <td>Databases</td>
+                                <td>Relational (MySQL/MariaDB, SQlite) & non-relational (MongoDB)</td>
+                            </tr>
+                            <tr>
+                                <td>Git</td>
+                                <td>Github</td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
-            </div>
-            <div class="projectTitle">
-                <h1>Projects</h1>
             </div>
             <div id="projects">
-                <div class="project">
-                    <div class="image">
-                        <img class="projectImage" src="images/Tournament.png" alt="Image of tournament app" >
-                    </div>
-                    <div class="info">
-                        <h3>Host a tournament</h3>
-                        <p>A webapp to host a tournament for games (eg. Chess or card games). The webapp pairs the players, records the scores and displays the standings</p>
-                        <p>Techniques used: Python (& Flask, Jinja2), SQLite, HTML, CSS (& Bootstrap), JS</p>
-                        <div>Visit: <a href="https://youtu.be/Jd9QS1xyEag">demo video</a></div>
-                        <div>Repo: <a href="https://github.com/ThomasMHendriks/Projects/tree/main/tournament">code </a></div>
-                    </div>
-                </div>
                 <div class="project">
                     <div class="image">
                         <img class="projectImage" src="images/sudoku2.jpg" alt="Image of Sudoku app">
@@ -80,6 +78,18 @@
                         <p>Techniques used: HTML, CSS, JS</p>
                         <div>Visit: <a href="https://thomasmhendriks.github.io/Sudoku/">site live</a></div>
                         <div>Repo: <a href="https://github.com/ThomasMHendriks/Sudoku">code</a></div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="image">
+                        <img class="projectImage" src="images/Tournament.png" alt="Image of tournament app" >
+                    </div>
+                    <div class="info">
+                        <h3>Host a tournament</h3>
+                        <p>A webapp to host a tournament for games (eg. Chess or card games). The webapp pairs the players, records the scores and displays the standings</p>
+                        <p>Techniques used: Python (& Flask, Jinja2), SQLite, HTML, CSS (& Bootstrap), JS</p>
+                        <div>Visit: <a href="https://youtu.be/Jd9QS1xyEag">demo video</a></div>
+                        <div>Repo: <a href="https://github.com/ThomasMHendriks/Projects/tree/main/tournament">code </a></div>
                     </div>
                 </div>
                 <div class="project">
@@ -98,10 +108,10 @@
                         <img class="projectImage" src="images/demoBlackjackTicTacToe.png" alt="Image of TicTacToe app" >
                     </div>
                     <div class="info">
-                        <h3>Simple games on CLI</h3>
+                        <h3>Simple command line games</h3>
                         <p>- TicTacToe for 2 players to be played on the CLI</p>
                         <p>- Simple blackjack game for a single player vs the computer to be played on the CLI</p>
-                        <p>Written in: Python</p>
+                        <p>Techniques used : Python</p>
                         <div>Repo: <a href="https://github.com/ThomasMHendriks/CLI-games/tree/main/tictactoe">code TicTacToe</a></div>
                         <div>Repo: <a href="https://github.com/ThomasMHendriks/CLI-games/tree/main/blackjack_cli">code Blackjack</a></div>
                     </div>
@@ -112,14 +122,14 @@
     <footer id="contact">
         <div>
             Feel free to contact me via linkedin
-            <a href="https://www.linkedin.com/in/thomas-hendriks-287837189/"> 
+            <a class="iconLink" href="https://www.linkedin.com/in/thomas-hendriks-287837189/"> 
                 <img class="icon" src="images/iconLi.png">
             </a> 
             or by mail 
-            <a href="mailto:ThomasMHendriks@gmail.com">
+            <a class="iconLink" href="mailto:ThomasMHendriks@gmail.com">
                 <img class="icon" id="mail" src="images/iconMail.png">
             </a>
-            : thomasmhendriks@gmail.com
+            : ThomasMHendriks@gmail.com
         </div>
         <p class="small"> Icons from icons8.com</p>
     </footer>
